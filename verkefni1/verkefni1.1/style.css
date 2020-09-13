@@ -1,0 +1,43 @@
+
+body{
+  width: 50em;
+  border:2px solid black;
+  font-family: 'Poppins', sans-serif;
+  padding: 32px;
+  margin: 20px
+}
+
+
+
+.adalfyrirsogn{
+	text-align: center;
+	color: blue;
+}
+
+h2 {
+	text-align: center;
+}
+
+
+h3 {
+	text-align: center;
+}
+
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  color: rgb(150,3,150);
+}
+
+
+a:visited{
+  color: rgb(0,100,150)
+}
+
+a:active{
+  color: blue
+}

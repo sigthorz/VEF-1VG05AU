@@ -1,0 +1,43 @@
+.adalfyrirsogn{
+  text-align: center;
+  color: rgb(30,15,150);
+
+}
+
+body{
+  width: 50em;
+  border:2px solid black;
+  font-family: 'Poppins', sans-serif;
+  padding: 32px;
+  margin: 20px
+}
+
+.undirfyrirsogn{
+  color: rgb(150,15,30);
+}
+
+.imagine{
+  color: rgb(150,15,30);
+}
+
+.paragraph{
+  color: rgb(30,15,150);
+  padding-left:60px;
+}
+
+.namskrofur{
+  text-align: center;
+  color: rgb(150,15,30);
+}
+
+
+
+h2 h3{
+  text-align: center;
+}
+
+
+.green{
+color: rgb(50, 146, 50);
+}
+
