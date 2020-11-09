@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap');
+
+
+
+
+
+@media screen and (min-width: 768px){
+    body{
+    background: linear-gradient(to bottom, #020f86, #1500ce, #001933);
+    margin: 0px;
+    }
+}
+@media screen and (min-width: 960px){
+    body{
+    background: linear-gradient(to bottom, #020f86, #1500ce, #001933);
+    margin: 0px;
+    }}
+html{
+    height: 100%;
+    }
+body{
+    background: linear-gradient(to bottom, #020f86, #1500ce, #001933);
+    margin: 0px;
+}
+.midja{
+    background: linear-gradient(to bottom, #F7D37E, #f6f1d3);
+    padding: 1em
+}
+.main{
+    width: 70%;
+    margin: 0 auto;
+}.tveirDalkar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.fotur{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white;
+}
+h1 {
+    font-weight: 300;
+    font-size: 29px;
+    font-family: 'Rubik';
+}
+header h1 {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 1em;
+    font-size: 36px;
+}
+.verkefni {
+    position: absolute;
+    top: 0;
+    right: 1em;
+    text-align: right;
+    color: white;
+}
+.topnav {
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-around;
+}
+.topnav a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding-bottom:1em;
+    text-transform: uppercase;
+}
+blockquote {
+    background-color: rgba(255,255,255,0.3);
+    padding: 1em 1em 1em 3em;
+    margin: 0;
+}
+.lmao {
+    background: linear-gradient( #F7D37E, #f6f1d3);
+    padding: 1em;
+}
+
+.container {
+    max-width: 60em;
+    margin: 0 auto;
+    padding: 0;
+}
+.pila{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    font-size: 2em;
+
+    background: white;
+    opacity: 85%;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+
+}
+.copy {
+    color: white;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.innermenu{
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+a:link{
+    color: black;
+}
+a:visited{
+    color: darkslateblue;
+}
+a:hover{
+    color: blue;
+}
+dd{
+    color: black;
+}
