@@ -1,0 +1,71 @@
+.texti {
+    font-family: 'Teko', sans-serif;
+    color: white;
+    font-size: 7vw;
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+    text-shadow: 2px 2px black;
+}
+
+body {
+  background-image: linear-gradient(200deg, #0097e6, #273c75);
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+img {
+    width: 20%;
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+.container{
+
+  text-align: center;
+}
+
+button{
+    border: 2px solid;
+    border-color: white;
+    border-radius: 25px;
+    background: rgba(0,0,0,0);
+    color: white;
+    text-align: center;
+  font-family: 'Catamaran', sans-serif;
+  cursor:pointer;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  min-width: 28px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    outline:none;
+}
+
+button:hover{
+    border: 2px solid;
+    border-color: white;
+    border-radius: 25px;
+    background: white;
+    color: #205594;
+    text-align: center;
+    transition: 0.25s linear background-color, 0.25s linear color;
+  font-family: 'Catamaran', sans-serif;
+}

@@ -1,0 +1,74 @@
+.title{
+text-align: center;
+font-size: 100px;
+font-family: 'Teko', sans-serif;
+color: white;
+font-size: 7vw;
+color: white;
+text-shadow: 2px 2px black;
+margin-bottom: 7%;
+background-image: linear-gradient(90deg, #1B1464, #1e3799);
+margin-top: 0;
+}
+
+.container1 {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+.container2 {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+
+
+}
+
+.container1 > div {
+  border: solid 3px white;
+  border-radius: 2px;
+  width: 12%;
+  height:35vh;
+  margin: 7px;
+  margin-top: 14px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 0px;
+  color: white;
+  background-image: linear-gradient(40deg, #8395a7, #c8d6e5);
+  box-shadow: 3px 4px 10px black;
+  font-family: 'Zilla Slab', serif;
+  }
+
+  .container2 > div {
+    border: solid 3px white;
+    border-radius: 2px;
+    width: 12%;
+    height:35vh;
+    margin: 7px;
+    margin-bottom: 6%;
+    margin-top: 14px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    color: white;
+    background-image: linear-gradient(40deg, #8395a7, #c8d6e5);
+    box-shadow: 3px 4px 10px black;
+    font-family: 'Zilla Slab', serif;
+    }
+
+  body{
+    background-image: linear-gradient(200deg, #0097e6, #273c75);
+    margin: 0;
+    padding: 0;
+    height: 123vh;
+
+}
+
+.container1 > div:hover{
+font-size: 30px;
+background-image: linear-gradient(40deg, #747d8c, #a4b0be);
+}
+.container1 > div > p{
+  font-size: 10px;
+}
